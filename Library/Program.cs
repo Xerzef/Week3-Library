@@ -33,13 +33,20 @@
     static void Main(string[] args)
     {
         // Create a new instance of the book class
-        Book book = new Book("C# for beginners","Bill Gates","12345678",200);
+         Book book = new Book("C# for beginners","Bill Gates","12345678",200);
+         Book book2 = new Book("VS 2022","Microsoft","123",70);
 
+        // Another instance?
+        // Title = VS 2022
+        // Author = Microsoft
+        // ISBN = 123
+        // NO of pages = 70
 
 
 
         // output book info to console
         book.DisplayInfo();
+        book2.DisplayInfo();
        
 
 
